@@ -195,7 +195,7 @@ if not st.session_state.run_camera:
 
 # Iniciar a câmera se o botão for clicado
 if st.session_state.run_camera:
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(1)
     stframe = st.empty()
     no_faces_placeholder = st.empty()
     
